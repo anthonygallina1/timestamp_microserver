@@ -1,0 +1,42 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time stamp micro service</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div style="margin:7.5px;">
+    <nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">micro service</a>
+  </div>
+</nav>
+    <div class="hero">
+      <h1>Time Stamp Micro Service</h1>
+     <blockquote>User stories:<br>
+
+    1) I can pass a string as a parameter by pasting it into the browser, it will check to see whether that string contains either a unix timestamp or a natural language date (example: March 8, 2016)<br>
+
+    2) If it does, it returns both the Unix timestamp and the natural language form of that date.<br>
+
+    3) If it does not contain a date or Unix timestamp, it returns null for those properties.
+        <blockquote>
+          <h3>Example usage:</h3>
+        <a href="https://timestamp-microserver-anthonygallina1.c9users.io/March 8, 2016"><code>https://timestamp-microserver-anthonygallina1.c9users.io/March 8, 2016</code></a><br>
+          <a href="https://timestamp-microserver-anthonygallina1.c9users.io/March%2015"><code>https://timestamp-microserver-anthonygallina1.c9users.io/March%2015</code></a><br>
+            <a href="https://timestamp-microserver-anthonygallina1.c9users.io/1457395200"><code>https://timestamp-microserver-anthonygallina1.c9users.io/1457395200</code></a>
+            <h3>Example output:</h3>
+            <code>
+                {
+                  "unix": 1457395200,
+                  "natural": "March 8, 2016"
+                }
+            </code>
+        </blockquote>
+    </div>
+  </div>
+</body>
+</html>
