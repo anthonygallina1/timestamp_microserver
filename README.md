@@ -69,4 +69,4 @@ This is a fullstack design built on Linux at https://c9.io Cloud Nine. As a proj
   └── on-headers@1.0.1
   ```
   The requirements to run this are a node v4.2.4 instalation, express 4.13.4, morgan 1.7.0 and moment 2.11.2.
-  The server outputs the validated time in joson format.
+  The server outputs the validated time in jason format.
