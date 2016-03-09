@@ -1,0 +1,30 @@
+{
+  "name": "timestamp_microserver",
+  "version": "1.0.0",
+  "description": "The requirements to run this are a node v4.2.4 instalation, express 4.13.4, morgan 1.7.0 and moment 2.11.2. The server outputs the validated time in jason format.",
+  "main": "HelloWorld.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "moment": "^2.11.2",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonygallina1/timestamp_microserver.git"
+  },
+  "keywords": [
+    "timestamp",
+    "micro",
+    "server"
+  ],
+  "author": "anthony gallina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonygallina1/timestamp_microserver/issues"
+  },
+  "homepage": "https://github.com/anthonygallina1/timestamp_microserver#readme"
+}
